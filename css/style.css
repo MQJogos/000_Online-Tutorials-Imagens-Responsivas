@@ -14,7 +14,11 @@ body
   justify-content: center;
   align-items: center;
   min-height:100vh;
-  background: #222;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .container
 {
