@@ -31,7 +31,7 @@ body
   width: 320px;
   height: 320px;
   margin: 15px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .container .card .imgBx, 
 .container .card .contentBx 
@@ -92,5 +92,11 @@ body
 {
   font-size: 1.3em;
   text-transform: uppercase;
-
+  letter-spacing: 1px;
 } 
+.container .card .contentBx .content p
+{
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
